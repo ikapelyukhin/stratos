@@ -17,6 +17,7 @@ const AcmeCustomizations: CustomizationsMetadata = {
   copyright: '&copy; 2020 ACME Corp',
   hasEula: true,
   supportInfoComponent: AcmeSupportInfoComponent,
+  loginComponent: AcmeLoginComponent
 };
 
 @NgModule({

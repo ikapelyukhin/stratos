@@ -11,6 +11,8 @@ export interface CustomizationsMetadata {
   supportInfoComponent?: any;
   noEndpointsComponent?: any;
   alwaysShowNavForEndpointTypes?: (epType) => boolean;
+  // Ensure custom login component is included when running `ng build --prod`. See #4473
+  loginComponent?: any;
 }
 
 @Injectable({
